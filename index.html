@@ -1,267 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta author="mohit" content="https://github.com/mohit2404" />
-    <title>3D card flip transition with pure css Joker Art</title>
-    <link rel="stylesheet" href="styles.css" media="all" />
-  </head>
-  <body>
-    <main class="main">
-      <div class="card-container">
-        <input class="input" type="checkbox" id="flip" />
-        <label class="label" for="flip"></label>
-        <div class="the-card">
-          <!-- front side of card -->
-          <div class="card-box-front">
-            <div class="cb-top">
-              <div class="name">
-                <span>J</span>
-                <span>O</span>
-                <span>K</span>
-                <span>E</span>
-                <span>R</span>
-              </div>
-              <div class="upper-part">
-                <div class="triangle">
-                  <span class="t-circle"></span>
-                </div>
-                <div class="upper-circle"></div>
-                <div class="lower-circle"></div>
-                <div class="outer-circle">
-                  <div class="inner-circle"></div>
-                </div>
-                <div class="up-box">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-              </div>
-              <div class="top-left-side">
-                <div class="tls-top"></div>
-                <div class="tls-left"></div>
-                <div class="tls-right"></div>
 
-                <div class="bls-bottom"></div>
-                <div class="bls-right"></div>
-                <div class="bls-left">
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="top-right-side">
-                <div class="trs-top"></div>
-                <div class="trs-left"></div>
-                <div class="trs-right"></div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Grid Design</title>
+    <link rel="shortcut icon" href="img/fav.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
 
-                <div class="brs-bottom"></div>
-                <div class="brs-right"></div>
-                <div class="brs-left">
-                  <span class="dot"></span>
+<body>
+    <div class="windowContent">
+        <div class="firstRow">
+            <div class="firstContent">
+                <div class="homeCareCard">
+                    <h6>Hoem Care Scheduler</h6>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z">
+                            </path>
+                        </svg></span>
                 </div>
-              </div>
-
-              <div class="middle-left-side">
-                <div class="mls-top"></div>
-                <div class="mls-left"></div>
-                <div class="mls-right"></div>
-
-                <div class="mlsb-top"></div>
-                <div class="mlsb-left">
-                  <span class="span3"></span>
-                  <span class="span2"></span>
-                  <span class="span1"></span>
+                <div class="timeCard">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Z">
+                            </path>
+                        </svg>
+                        every spring
+                    </span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M211.18,196.56,139.57,128l71.61-68.56a1.59,1.59,0,0,1,.13-.13A16,16,0,0,0,200,32H56A16,16,0,0,0,44.7,59.31l.12.13L116.43,128,44.82,196.56l-.12.13A16,16,0,0,0,56,224H200a16,16,0,0,0,11.32-27.31A1.59,1.59,0,0,1,211.18,196.56ZM56,48h0v0ZM89.43,80h77.14L128,116.92ZM200,48l-16.7,16H72.72L56,48ZM56,208l72-68.92L200,208Z">
+                            </path>
+                        </svg>
+                        2 hours
+                    </span>
                 </div>
-                <div class="mlsb-right"></div>
-              </div>
-              <div class="middle-right-side">
-                <div class="mrs-top"></div>
-                <div class="mrs-left">
-                  <span class="span"></span>
-                </div>
-                <div class="mrs-right"></div>
-
-                <div class="mrsb-top"></div>
-                <div class="mrsb-left"></div>
-                <div class="mrsb-right"></div>
-                <div class="triangle">
-                  <span class="t-circle"></span>
-                </div>
-              </div>
-
-              <div class="mouth1">
-                <div class="right"></div>
-                <div class="r-middle"></div>
-                <div class="m-line"></div>
-                <div class="l-middle"></div>
-                <div class="left"></div>
-              </div>
             </div>
-            <div class="cb-bottom">
-              <div class="name">
-                <span>J</span>
-                <span>O</span>
-                <span>K</span>
-                <span>E</span>
-                <span>R</span>
-              </div>
-              <div class="upper-part">
-                <div class="triangle">
-                  <span class="t-circle"></span>
+            <div class="secondContent">
+                <div class="notficationCard one">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M116,120a12,12,0,1,1,12,12A12,12,0,0,1,116,120ZM84,132a12,12,0,1,0-12-12A12,12,0,0,0,84,132Zm88,0a12,12,0,1,0-12-12A12,12,0,0,0,172,132Zm60-76V184a16,16,0,0,1-16,16H155.57l-13.68,23.94a16,16,0,0,1-27.78,0L100.43,200H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56Zm-16,0H40V184h65.07a8,8,0,0,1,7,4l16,28,16-28a8,8,0,0,1,7-4H216Z">
+                            </path>
+                        </svg></span>
+                    Company approved and certified
                 </div>
-                <div class="upper-circle"></div>
-                <div class="lower-circle"></div>
-                <div class="outer-circle">
-                  <div class="inner-circle"></div>
+                <div class="notficationCard two">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-32-80a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,136Zm0,32a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,168Z">
+                            </path>
+                        </svg></span>
+                    Required to hold applicable state and local licenses
                 </div>
-                <div class="up-box">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
+                <div class="notficationCard three">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M239.18,97.26A16.38,16.38,0,0,0,224.92,86l-59-4.76L143.14,26.15a16.36,16.36,0,0,0-30.27,0L90.11,81.23,31.08,86a16.46,16.46,0,0,0-9.37,28.86l45,38.83L53,211.75a16.38,16.38,0,0,0,24.5,17.82L128,198.49l50.53,31.08A16.4,16.4,0,0,0,203,211.75l-13.76-58.07,45-38.83A16.43,16.43,0,0,0,239.18,97.26Zm-15.34,5.47-48.7,42a8,8,0,0,0-2.56,7.91l14.88,62.8a.37.37,0,0,1-.17.48c-.18.14-.23.11-.38,0l-54.72-33.65a8,8,0,0,0-8.38,0L69.09,215.94c-.15.09-.19.12-.38,0a.37.37,0,0,1-.17-.48l14.88-62.8a8,8,0,0,0-2.56-7.91l-48.7-42c-.12-.1-.23-.19-.13-.5s.18-.27.33-.29l63.92-5.16A8,8,0,0,0,103,91.86l24.62-59.61c.08-.17.11-.25.35-.25s.27.08.35.25L153,91.86a8,8,0,0,0,6.75,4.92l63.92,5.16c.15,0,.24,0,.33.29S224,102.63,223.84,102.73Z">
+                            </path>
+                        </svg></span>
+                    Maintance a minimum 4- star average rating
                 </div>
-              </div>
-              <div class="top-left-side">
-                <div class="tls-top"></div>
-                <div class="tls-left"></div>
-                <div class="tls-right"></div>
-
-                <div class="bls-bottom"></div>
-                <div class="bls-right"></div>
-                <div class="bls-left">
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <div class="top-right-side">
-                <div class="trs-top"></div>
-                <div class="trs-left"></div>
-                <div class="trs-right"></div>
-
-                <div class="brs-bottom"></div>
-                <div class="brs-right"></div>
-                <div class="brs-left">
-                  <span class="dot"></span>
-                </div>
-              </div>
-
-              <div class="middle-left-side">
-                <div class="mls-top"></div>
-                <div class="mls-left"></div>
-                <div class="mls-right"></div>
-
-                <div class="mlsb-top"></div>
-                <div class="mlsb-left">
-                  <span class="span3"></span>
-                  <span class="span2"></span>
-                  <span class="span1"></span>
-                </div>
-                <div class="mlsb-right"></div>
-              </div>
-              <div class="middle-right-side">
-                <div class="mrs-top"></div>
-                <div class="mrs-left">
-                  <span class="span"></span>
-                </div>
-                <div class="mrs-right"></div>
-
-                <div class="mrsb-top"></div>
-                <div class="mrsb-left"></div>
-                <div class="mrsb-right"></div>
-                <div class="triangle">
-                  <span class="t-circle"></span>
-                </div>
-              </div>
-
-              <div class="mouth1">
-                <div class="right"></div>
-                <div class="r-middle"></div>
-                <div class="m-line"></div>
-                <div class="l-middle"></div>
-                <div class="left"></div>
-              </div>
             </div>
-          </div>
-
-          <!-- back side of card -->
-          <div class="card-box-back">
-            <div class="bg1"></div>
-            <div class="bg2">
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
+            <div class="thirdContent">
+                <div class="infoCard">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#1cab40"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M231.19,195.51A8,8,0,0,1,224,200H136v40a8,8,0,0,1-16,0V200H32a8,8,0,0,1-6.31-12.91l46-59.09H48a8,8,0,0,1-6.34-12.88l80-104a8,8,0,0,1,12.68,0l80,104A8,8,0,0,1,208,128H184.36l45.95,59.09A8,8,0,0,1,231.19,195.51Z">
+                            </path>
+                        </svg></span>
+                    Tree & Shrub Service
+                </div>
+                <div class="infoCard">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#f4a019"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M216,24H72A40,40,0,0,0,32,64v72a24,24,0,0,0,24,24h48l-7.89,46.67A8.42,8.42,0,0,0,96,208a32,32,0,0,0,64,0,8.42,8.42,0,0,0-.11-1.33L152,160h48a24,24,0,0,0,24-24V32A8,8,0,0,0,216,24ZM72,40H176V80a8,8,0,0,0,16,0V40h16v72H48V64A24,24,0,0,1,72,40Z">
+                            </path>
+                        </svg></span>
+                    Painting
+                </div>
+                <div class="infoCard">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#f4a019"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M224,120v96a8,8,0,0,1-8,8H160a8,8,0,0,1-8-8V164a4,4,0,0,0-4-4H108a4,4,0,0,0-4,4v52a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V120a16,16,0,0,1,4.69-11.31l80-80a16,16,0,0,1,22.62,0l80,80A16,16,0,0,1,224,120Z">
+                            </path>
+                        </svg></span>
+                    Additions & Remodels
+                </div>
+                <div class="infoCard">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#458ca3"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M235.81,75.79A27.91,27.91,0,0,1,216,84a28.49,28.49,0,0,1-5.67-.58l-30.57,56.77,0,0a28,28,0,1,1-44.43,6.49l-26.06-26.06A28.07,28.07,0,0,1,96,124a28.41,28.41,0,0,1-5.67-.58L59.76,180.18l0,0a28,28,0,1,1-39.6,0h0a28,28,0,0,1,25.47-7.61l30.57-56.77,0,0a28.05,28.05,0,0,1,0-39.61h0a28,28,0,0,1,44.43,33.12l26.06,26.06a28.1,28.1,0,0,1,19-2.77l30.57-56.77,0,0a28,28,0,0,1,0-39.6h0a28,28,0,0,1,39.6,39.6Z">
+                            </path>
+                        </svg></span>
+                    Pools & Water Features
+                </div>
             </div>
-            <div class="bg-1"></div>
-            <div class="bg-1-dotted-circle">
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
+            <div class="alertContent">
+                <div class="alertText">
+                    <div class="alertTextleft">
+                        <h6>Job #18267</h6>
+                        <h5>
+                            Install Garage Organizers
+                        </h5>
+                        <p>Your appointment at Hephaestus renovation has been scheduled</p>
+                    </div>
+                    <div class="alertTextRight">
+                        <span>Jun</span>
+                        <span>1</span>
+                    </div>
+                </div>
+                <div class="alertIcon">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M144.27,45.93a8,8,0,0,1,9.8-5.66,86.22,86.22,0,0,1,61.66,61.66,8,8,0,0,1-5.66,9.8A8.23,8.23,0,0,1,208,112a8,8,0,0,1-7.73-5.94,70.35,70.35,0,0,0-50.33-50.33A8,8,0,0,1,144.27,45.93Zm-2.33,41.8c13.79,3.68,22.65,12.54,26.33,26.33A8,8,0,0,0,176,120a8.23,8.23,0,0,0,2.07-.27,8,8,0,0,0,5.66-9.8c-5.12-19.16-18.5-32.54-37.66-37.66a8,8,0,1,0-4.13,15.46Zm81.94,95.35A56.26,56.26,0,0,1,168,232C88.6,232,24,167.4,24,88A56.26,56.26,0,0,1,72.92,32.12a16,16,0,0,1,16.62,9.52l21.12,47.15,0,.12A16,16,0,0,1,109.39,104c-.18.27-.37.52-.57.77L88,129.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,223.88,183.08Zm-15.88-2s-.07,0-.11,0h0l-47-21.05-24.35,20.71a8.44,8.44,0,0,1-.74.56,16,16,0,0,1-15.75,1.14c-18.73-9.05-37.4-27.58-46.46-46.11a16,16,0,0,1,1-15.7,6.13,6.13,0,0,1,.57-.77L96,95.15l-21-47a.61.61,0,0,1,0-.12A40.2,40.2,0,0,0,40,88,128.14,128.14,0,0,0,168,216,40.21,40.21,0,0,0,208,181.07Z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M116,120a12,12,0,1,1,12,12A12,12,0,0,1,116,120ZM84,132a12,12,0,1,0-12-12A12,12,0,0,0,84,132Zm88,0a12,12,0,1,0-12-12A12,12,0,0,0,172,132Zm60-76V184a16,16,0,0,1-16,16H155.57l-13.68,23.94a16,16,0,0,1-27.78,0L100.43,200H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56Zm-16,0H40V184h65.07a8,8,0,0,1,7,4l16,28,16-28a8,8,0,0,1,7-4H216Z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-38.34-85.66a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L116,164.69l42.34-42.35A8,8,0,0,1,169.66,122.34Z">
+                            </path>
+                        </svg>
+                    </span>
+                </div>
             </div>
-            <div class="bg-2"></div>
-            <div class="bg-2-dotted-circle">
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
+            <div class="remote">
+                <h5>Remodel a kitchen</h5>
+                <span>average&nbsp;$26 489</span>
             </div>
-            <div class="circle">
-              <img
-                src="https://avatars.githubusercontent.com/u/109670799?v=4"
-                alt="logo"
-              />
+            <div class="priceCard">
+                <div class="priceCardFirst">
+                    <h5>Hire a<br/>Handyman</h5>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm40-68a28,28,0,0,1-28,28h-4v8a8,8,0,0,1-16,0v-8H104a8,8,0,0,1,0-16h36a12,12,0,0,0,0-24H116a28,28,0,0,1,0-56h4V72a8,8,0,0,1,16,0v8h16a8,8,0,0,1,0,16H116a12,12,0,0,0,0,24h24A28,28,0,0,1,168,148Z">
+                            </path>
+                        </svg></span>
+                </div>
+                <div class="priceCardSecond">
+                    <div class="priceCardSecondLeft">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="priceCardSecondRight">
+                        <div class="priceCardSecondRightTop">
+                            <span>$345</span>
+                            <p>Average for<br/>Boston, 02190</p>
+                        </div>
+                        <p>Lowest: $80<br/>Highest: $740</p>
+                    </div>
+                </div>
             </div>
-            <div class="content">
-              <strong>Mohit</strong>
-              <p>If you have any suggestions please please let me know</p>
-              <a class="id-link" href="https://github.com/mohit2404">Profile</a>
-            </div>
-          </div>
         </div>
-      </div>
-    </main>
-  </body>
+        
+    </div>
+</body>
+
 </html>

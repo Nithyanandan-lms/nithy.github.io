@@ -1,0 +1,404 @@
+body {
+    word-break: break-word;
+    font-family: "Inter", sans-serif;
+    background-color: #c4e4b4;
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.windowContent {
+    display: grid;
+    padding: 30px;
+    width: 100%;
+}
+
+.firstRow {
+    align-items: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.firstContent,
+.secondContent,
+.thirdContent {
+    /* margin-bottom: 20px; */
+    height: 100%;
+}
+
+.homeCareCard {
+    background-image: url(../img/garrden.jpeg);
+    min-height: 130px;
+    background-size: cover;
+    margin-bottom: 15px;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.homeCareCard::before {
+    content: "";
+    background-color: #00000038;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.homeCareCard h6 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    margin: 0px;
+}
+
+.homeCareCard span {
+    display: grid;
+    background-color: #045e3b;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    top: 40px;
+}
+
+.homeCareCard span svg {}
+
+.timeCard {
+    background-color: #e46a13;
+    display: grid;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.timeCard span {
+    display: inline-grid;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    justify-items: center;
+    text-align: center;
+}
+
+.timeCard span svg {
+    margin-bottom: 10px;
+}
+
+.notficationCard {
+    position: relative;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+    color: #fff;
+    justify-items: center;
+    grid-template-columns: auto auto auto;
+}
+
+.notficationCard span {
+    margin-right: 20px;
+}
+
+.notficationCard span svg {}
+
+.notficationCard.one {
+    background-color: #f4a019;
+    margin-bottom: 15px;
+}
+
+.notficationCard.two {
+    background-color: #202020;
+    margin-bottom: 15px;
+}
+
+.notficationCard.three {
+    background-color: #047a98;
+}
+
+.thirdContent {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+}
+
+.infoCard {
+    display: inline-grid;
+    align-items: start;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.infoCard:nth-child(3),
+.infoCard:nth-child(4) {
+    margin-bottom: 0px;
+}
+
+.infoCard span {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.infoCard span svg {}
+
+.secondRow {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+.alertContent {
+    display: inline-grid;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.alertText {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.alertTextleft {
+    display: inline-grid;
+    width: 80%;
+}
+
+.alertTextleft h6 {
+    color: #9e9e9e;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.alertTextleft h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.alertTextleft p {
+    color: #9e9e9e;
+    font-size: 14px;
+}
+
+.alertTextRight {
+    display: inline-grid;
+    background-color: #de6e15;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.alertTextRight span {
+    margin: 10px 0px;
+    display: block;
+}
+
+.alertIcon {
+    padding: 0px 15px 15px 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.alertIcon span {
+    background-color: #f2f2f2;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.alertIcon span svg {
+    fill: #9e9e9e;
+    width: 24px;
+    height: 24px;
+}
+
+.remote {
+    display: inline-grid;
+    border-radius: 26px;
+    background-image: url(../img/kitchen.jpeg);
+    height: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.remote::before {
+    content: "";
+    background-color: #00000091;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 26px;
+}
+
+.remote h5 {
+    padding: 17px;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.remote span {
+    background-color: #ea690b;
+    position: relative;
+    margin: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+}
+
+.priceCard {
+    background-color: #00623b;
+    display: inline-grid;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.priceCardFirst {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.priceCardFirst h5 {
+    margin: 0px;
+    display: inline-block;
+    width: 80%;
+    color: #fff;
+    font-size: 16px;
+}
+
+.priceCardFirst span {
+    background-color: #237a4a;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.priceCardSecond {
+    padding: 0px 15px 15px 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.priceCardSecondLeft {
+    align-items: center;
+    gap: 2px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.priceCardSecondLeft span {
+    background-color: #a9df96;
+    border-radius: 9px;
+    margin: 1px;
+    padding: 20px;
+}
+
+.priceCardSecondLeft span:nth-child(2) {
+    background-color: #45935e;
+}
+
+.priceCardSecondLeft span:nth-child(3) {
+    background-color: #217a4c;
+}
+
+.priceCardSecondLeft span:nth-child(6) {
+    background-color: #217a4c;
+}
+
+.priceCardSecondRight {
+    display: inline-grid;
+    font-size: 12px;
+    color: #fff;
+    margin-left: auto;
+}
+
+.priceCardSecondRightTop {
+    margin-bottom: 25px;
+}
+
+.priceCardSecondRightTop span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.priceCardSecondRight p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 991px) {
+    .firstRow {
+        grid-template-columns: auto auto;
+    }
+    .secondRow {
+        grid-template-columns: auto;
+    }
+
+    .alertContent {
+        margin-bottom: 20px;
+    }
+
+    .priceCardSecondRight {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .firstRow {
+        grid-template-columns: auto;
+    }
+    .secondRow {
+        grid-template-columns: auto;
+    }
+
+    .alertContent {
+        margin-bottom: 20px;
+    }
+
+    .priceCardSecondRight {
+        margin-left: 0px;
+    }  
+}
